@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+img {
+    border-radius: 10%;
+    width: 300px;
+}  
+
+body {
+    font-family: 'Oswal', sans-serif;
+    background-color: aqua;
+}
+
+body p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.card {
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inform-head{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+a:hover {
+    /* transition: all 2s; */
+    color: orange;
+    /* font-size: 2rem; */
+}
+
+a:active {
+   color: blue;
+} 
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.table td:hover{
+    background: #eeefff;;
+}
+
+.table tr:nth-child(even){
+    background: #eee;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.list li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+
+form{
+    padding: 10px;
+    background: #a3bfbf;
+    width: 500px;
+}
+
+.label-form{
+    width: 49%;
+    display: inline-block;
+}
+
+.label-form label{
+    font-size: 18px;
+}
+
+.label-form input{
+    padding-top: 10px;
+    border: 0;
+    font-size: 18px;
+    background: #a3bfbf;
+}
+
+form textarea{
+    border: 0;
+    font-size: 18px;
+    background: #a3bfbf;
+}
+
+@media (max-width: 1000px) {
+    .container{
+        font-size: 1.5rem;
+        padding: 10px;
+        text-align: center;
+    }
+    
+}
